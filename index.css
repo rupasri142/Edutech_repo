@@ -1,0 +1,173 @@
+html,body{
+    font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav, header, footer{
+    display:block;
+}
+
+header,footer{
+	flex: none;
+}
+
+header{
+  height: 20px;
+}
+
+main{
+  height: 472rem;
+  padding-top: 60px;
+  flex-wrap: wrap;
+}
+.icons-img img{
+  box-shadow: 5px 10px 8px #888888;
+  margin-bottom: 30px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin-left: 50px;
+
+}
+.caption {
+    display: block;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: bold;
+}
+b span{
+  color: #0000A0;
+  cursor: pointer;
+  font-size: 30px;
+}
+a img{
+  max-width: 120px;
+  max-height:120px;
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+}
+.live_classes{
+  padding-top: 50px;
+  font-weight: 60px;
+}
+.work{
+  margin-top: 30px;
+  height: 350px;
+  width: 570px;
+}
+.div{
+  margin: 40px;
+}
+h3{
+  padding-left:60px;
+}
+  
+.contents{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/******MOBILE******/
+@media only screen and (max-width: 680px){
+  
+    ul.navmenu li:not(:nth-child(1)){
+        display:none;
+    }
+    ul.navmenu.responsive{
+        position: relative;
+    }
+    ul.navmenu.responsive li{
+        display:inline;
+        float:none;
+    }
+
+}
+
+footer{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+.card-title{
+  font-size: 30px;
+  color:#0000A0;
+  padding-top: 30px;
+}
+.card-text{
+  font-size: 15px;
+  color: gray
+}
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 60px;
+  color: gray;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 60px;
+  color: gray;
+}
+
+#carouselExampleIndicatorsDots {
+  padding-bottom: 50px;
+}
+
+
+/******NAV BAR*******/
+
+.topnav-right a:hover {
+  color: #0000A0;
+
+}
+.navmenu{
+  text-align: right;
+
+}
+ul.navmenu{
+    font-size:14px;
+    overflow:hidden;
+    margin:0;
+    padding-left: 12px;
+    margin-top: -50px;
+    margin-right: 40px;
+}
+ul.navmenu li{
+  list-style-type: none;
+  display:inline;
+  flex-wrap: wrap;
+  text-align: right;
+  padding-left: 30px;
+  cursor: pointer;
+  font-weight: bold;  
+}
+
+ul.navmenu li a{
+    text-transform: uppercase;
+    text-decoration:none;
+    min-height:16px;
+    color:gray
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+ul.navmenu li:hover{
+  transform: translateY(-4px);
+  color:  #0000A0;
+}
+ul.navmenu li.topnav-right{
+    cursor:pointer;
+    text-align: right;
+}
+
+.header3-navmenu li{
+  display: inline;
+  padding-right: 15px;
+}
